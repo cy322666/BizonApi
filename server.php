@@ -12,8 +12,8 @@ require_once 'Collections/Viewers.php';
 $bizon = new cy322666\BizonApi\Bizon();
 
 $bizon->auth([
-    'username' => 'Jannnie@yandex.ru',
-    'password' => '1Natali2'
+    'username' => '',
+    'password' => ''
 ]);
 
 if($bizon->auth) {
